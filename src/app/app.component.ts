@@ -10,5 +10,5 @@ template: `
 `
 })
 export class AppComponent {
-  pageTitle: string = 'Marcelo Santos'
+  pageTitle: string = 'Acme Product Management'
 }

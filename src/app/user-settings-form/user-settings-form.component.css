@@ -1,0 +1,10 @@
+/*
+  FORMA DIRETA DE VALIDAR O DADOS - O ERRO JÁ APRESENTADO QUANDO SAI DO CAMPO
+.ng-invalid:not(form).ng-touched {
+    border: 1px solid red;
+} */
+
+
+.field-error {
+    border: 1px solid red;
+} 

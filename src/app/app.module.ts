@@ -2,16 +2,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { ProductListComponent } from './products/product-list.Component';
+import {HttpClientModule } from '@angular/common/http';
+import { UserSettingsFormComponent } from './user-settings-form/user-settings-form.component';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductListComponent
+    UserSettingsFormComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
+    ButtonsModule.forRoot()
   ],
   bootstrap: [AppComponent]
 })
